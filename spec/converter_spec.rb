@@ -18,3 +18,9 @@ describe('#converter') do
     expect(converter(2)).to(eq('two'))
   end
 end
+
+describe('#converter') do
+  it("returns 10 as ten") do
+    expect(converter(10)).to(eq('ten'))
+  end
+end
