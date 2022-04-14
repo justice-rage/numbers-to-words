@@ -44,13 +44,13 @@ describe('#converter') do
 end
 
 describe('#converter') do
-  it("returns 10000 as million") do
+  it("returns 1000000 as million") do
     expect(converter(1000000)).to(eq('million'))
   end
 end
 
 describe('#converter') do
-  it("returns 100000 as billion") do
+  it("returns 1000000000 as billion") do
     expect(converter(1000000000)).to(eq('billion'))
   end
 end
