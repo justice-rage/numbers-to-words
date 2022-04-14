@@ -6,3 +6,9 @@ describe('#converter') do
     expect(converter(0)).to(eq('zero'))
   end
 end
+
+describe('#converter') do
+  it("returns 1 as one") do
+    expect(converter(1)).to(eq('one'))
+  end
+end
