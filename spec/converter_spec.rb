@@ -30,3 +30,9 @@ describe('#converter') do
     expect(converter(20)).to(eq('twenty'))
   end
 end
+
+describe('#converter') do
+  it("returns 100 as hundred") do
+    expect(converter(100)).to(eq('hundred'))
+  end
+end
