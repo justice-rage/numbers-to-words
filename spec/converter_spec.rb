@@ -2,7 +2,7 @@ require('rspec')
 require('converter')
 
 describe('#converter') do
-  it("returns 1 as one") do
-    expect(converter(1)).to(eq('one'))
+  it("returns 0 as zero") do
+    expect(converter(0)).to(eq('zero'))
   end
 end
