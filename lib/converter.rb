@@ -23,6 +23,14 @@ def converter(number)
     18 => 'eighten',
     19 => 'nineteen',
     20 => 'twenty',
+    30 => 'thirty',
+    40 => 'fourty',
+    50 => 'fifty',
+    60 => 'sixty',
+    70 => 'seventy',
+    80 => 'eighty',
+    90 => 'ninety',
+    100 => 'hundred',
   }
   numbers_to_words.fetch(number)
 end
