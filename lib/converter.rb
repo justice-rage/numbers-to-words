@@ -33,6 +33,7 @@ def converter(number)
     100 => 'hundred',
     1000 => 'thousand',
     10000 => 'million',
+    100000 => 'billion',
   }
   numbers_to_words.fetch(number)
 end
