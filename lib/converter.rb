@@ -31,6 +31,7 @@ def converter(number)
     80 => 'eighty',
     90 => 'ninety',
     100 => 'hundred',
+    1000 => 'thousand',
   }
   numbers_to_words.fetch(number)
 end
