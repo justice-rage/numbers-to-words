@@ -54,3 +54,9 @@ describe('#converter') do
     expect(converter(1000000000)).to(eq('billion'))
   end
 end
+
+describe('#converter') do
+  it("returns 1000000000000 as trillion") do
+    expect(converter(1000000000000)).to(eq('trillion'))
+  end
+end
