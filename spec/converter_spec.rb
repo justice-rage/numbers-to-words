@@ -36,3 +36,9 @@ describe('#converter') do
     expect(converter(100)).to(eq('hundred'))
   end
 end
+
+describe('#converter') do
+  it("returns 1000 as thousand") do
+    expect(converter(1000)).to(eq('thousand'))
+  end
+end
